@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de dados</h1>
+    <form action="">
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+            <label for="nome">nome</label>
+            <input type="text" id="nome"placeholder="digite seu nome" required>
+            
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text" id="Sobrenome"placeholder="digite seu Sobrenome" required>
+            
+            <label for="CPF">CPF</label>
+            <input type="text" id="CPF"placeholder="digite seu CPF" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email"placeholder="digite seu E-mail" required>
+           
+            <label for="senha">Digite sua senha</label>
+            <input type="password" id="senha"placeholder="Senha de até 6 caracteres"maxlength="6" required>
+           
+            <label for="Sexo">Sexo</label>
+            <select name="sexo">
+                <option value="S">Selecionar</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="O">Outro</option>
+            </select>
+           
+            <label for="data">Data</label>
+            <input type="date" id="data">
+        </fieldset>
+        <button type="submit">Validar dados</button>
+        <button type="reset">Resetar dados</button>
+    </form>
+</body>
+</html>
